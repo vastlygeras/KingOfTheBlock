@@ -21,10 +21,14 @@ Go to `localhost:3000` to view the working React application.
 
 1. A player approves the use of LINK.
 
-2. The player bids an amount of Ether in order to double it. 
+2. The player places a bid in Ether in order to double it. 
 
 3. The dApp displays a list of integers to choose from. 
 
 4. The game is designed using mathematical formula to ensure it never runs out of liquidity. So, as the size of the bid increases, the number of integers also increases, until maxing out at 100.
 
 5. When the player rolls the dice, the success or failure of the roll is decided by the Chainlink VRF.
+
+–––
+
+The frontend application does not currently display the results of a given roll to the player, and requires further integration with wallets other than MetaMask.
