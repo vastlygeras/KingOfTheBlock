@@ -29,6 +29,6 @@ Go to `localhost:3000` to view the working React application.
 
 5. When the player rolls the dice, the success or failure of the roll is decided by the Chainlink VRF.
 
-–––
+---
 
 The frontend application does not currently display the results of a given roll to the player, and requires further integration with wallets other than MetaMask.
