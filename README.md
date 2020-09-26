@@ -16,3 +16,9 @@ To view it, create a folder on your own machine and run
 `npm install`
 
 `npm run start`
+
+Go to `localhost:3000` to view the working React application.
+
+A player must first approve the use of LINK in order to use the [Chainlink VRF](https://docs.chain.link/docs/chainlink-vrf). After that, the player may bid an amount of Ether in order to double it. The dApp will then display a list of integers to choose from. The game is designed using mathematical formula to ensure it never runs out of liquidity. So, as the size of the bid increases, the number of integers also increases, until maxing out at 100.
+
+When the player rolls the dice, the success or failure of the roll is decided by the Chainlink VRF.
