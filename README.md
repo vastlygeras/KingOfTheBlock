@@ -31,4 +31,4 @@ Go to `localhost:3000` to view the working React application.
 
 ---
 
-The frontend application does not currently display the results of a given roll to the player, and requires further integration with wallets other than MetaMask.
+The frontend application currently only exists for demonstrative purposes, and is not fit to be used in production.
